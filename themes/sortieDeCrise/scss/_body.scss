@@ -1,0 +1,949 @@
+
+
+body{
+    
+
+    ///////////////////////page categorie
+
+    a.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-square.vc_btn3-style-custom:hover{
+        background-color: white!important;
+        color:$vert-clair!important;
+    }
+
+
+    /////////////////page article
+    /* h2{
+        font-family: Space grotesk;
+        font-size: 36px;
+        font-weight: bold;
+    }
+    @media (max-width: 426px){
+        h2{
+            font-size: 25px;
+        }
+    } */
+
+    h2{
+        font-family: space Grotesk;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    h1{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 25px;
+    }
+    
+
+    @media (min-width: 1200px) {
+        h1{
+            font-family: Montserrat;
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 35px;
+        }
+    }
+    
+
+    h3{
+        font-size: 16px;
+    }
+
+    .texte-article{
+        font-family: Space Grotesk;
+        font-size: 16px;
+    }
+
+    #fond-rouge{
+        background-color: $rouge;
+        height: 100px;
+    }
+
+    .texte-exergue{
+        font-family: Space grotesk;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+////////////// formulaire contact
+
+    .gform_body{
+
+        input, textarea {
+            border: none;
+            border-bottom: solid 3px #0F326F;
+            background-color: unset;
+        }
+
+
+        #field_1_10, #field_1_8{
+            font-family: Space grotesk;
+            font-size: 18px;
+            color: #0F326F;
+        }
+
+        .gfield_label{
+            font-family: Karla;
+            color: #0F326F;
+        }
+    }
+
+    #gform_submit_button_1{
+        background-color:$rouge!important;
+        color: white!important;
+        font-weight: bold;
+        height: 40px;
+        width:150px;
+    }
+
+    .gform_wrapper.gravity-theme .gform_footer{
+        display: flex;
+        justify-content: center;
+    }
+
+
+/////////////////////// page courante
+
+    .vc_btn3.vc_btn3-color-primary.vc_btn3-style-modern{
+        border-color:transparent;
+    }
+
+    .accueil_button_article .vc_btn3.vc_btn3-style-modern{
+        background-image: none;
+    }
+
+    .accueil_button_article .vc_btn3.vc_btn3-style-modern:hover{
+        background-color: #FFFFFF!important;
+        border:none;
+    }
+
+    #wpfront-scroll-top-container:hover{
+        content: url("https://sortiedecrise.fr/wp-content/uploads/2021/11/Capture-decran-du-2021-09-13-15-23-25.jpg");
+        height: 50px;
+        opacity: 1;
+    }
+
+    .france img{
+        margin-left: -65px;
+        margin-top: -50px;
+        height: 329px;
+        width: 466px;
+        border-radius: 0px!important;
+        @media (max-width: 426px) {
+            margin-left: -26px;
+            margin-top: -48px;
+            width: auto;
+            height: auto;
+        }
+
+    }
+
+    .indentation-texte {
+        margin-left: 60px;
+    }
+
+    .seize-grotesk-no-line-height{
+        font-family: Space grotesk;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .vingt-grotesk{
+        font-family: Space grotesk;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .seize-grotesk{
+        font-family: Space grotesk;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .seize-roboto-no-bold{
+        font-family: Space grotesk;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .vingt-quatre-roboto-no-bold{
+        font-family: Space grotesk;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .vingt-quatre-roboto{
+        font-family: Space grotesk;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: bold;
+    }
+
+    .seize-grotesk-letter-spacing{
+        font-family: Space grotesk;
+        font-size: 16px;
+        letter-spacing: 1.6px;
+    }
+
+    .ligne-verticale{
+        border-right: 2px solid #DBDBDB;
+        height: auto;
+        margin-right: 50px;
+    }
+
+    .ligne-verticale-verte{
+        border-right: 2px solid #a3ccb6;
+        height: auto;
+    }
+
+
+    /////////////////////// page acceuil
+    .vc_btn3.vc_btn3-style-custom{
+        background-image: none;
+    }
+    
+    .tous-les-articles:hover{
+        padding-left: 100px;
+        transition: ease all 0.3s;
+    }
+
+    .button-a-propos{
+        color: $rouge!important;
+        font-family: space grotesk;
+        font-size: 14px;
+    }
+
+    .button-a-propos:hover{
+        padding-left: 10px;
+        color: $vert-clair!important;
+    }
+
+    button:hover{
+       background-color: $gris!important;
+       color:$vert-clair!important; 
+    }
+
+    .site-main .accueil_button_article a{
+        background-color: $rouge!important;
+        color:white!important; 
+    }
+
+    .site-main .accueil_button_article a:hover{
+        background-color: $gris!important;
+        color:$vert-clair!important; 
+    }
+
+    @media (max-width: 1600px) {
+        .image-admin-jud img {
+            max-width: fit-content!important;
+        }
+    }
+
+    @media (min-width: 1601px) {
+        .vc_custom_1634823791811{
+            padding-top: 10px!important;  
+        }
+        
+        .image-admin-jud {
+            margin-top: 30px;
+            height: auto!important;
+        }
+
+        
+    }
+    
+    /* @media (max-width: 768px) {
+        .image-admin-jud {
+            margin-top: 100px;
+        }
+    } */
+    
+    @media (max-width: 768px) {
+        .vc_custom_1634823791811{
+          padding-top: 10px!important;  
+        }
+        .image-admin-jud {
+            height: auto!important;
+        }
+    }
+    
+    .gform_body label {
+        font-family: 'Karla';
+        font-size: 18px!important;
+        font-weight: bold!important;
+    }
+
+
+    .image-admin-jud{
+        height: 500px;
+    }
+    
+    //bouton prise rdv 
+    .vc_btn3.vc_btn3-color-default.vc_btn3-style-modern {
+        color: #333;
+        border-color: white;
+        background-color: white;
+        font-weight: bold;
+        padding: 15px 71px;
+    }
+
+    .bouton_rdv_acceuil a.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-square.vc_btn3-style-modern.vc_btn3-color-grey {
+        background-image: none;
+    }
+
+    .site-main .bouton_rdv_acceuil a {
+        font-family: 'Space grotesk';
+        font-weight: bold;
+        color: $rouge!important;
+        background-color: white!important;
+    }
+    
+    .site-main .bouton_rdv_acceuil a:hover {
+        background-color: $rouge!important;
+        color:white!important;
+        border: 0px;
+    }
+
+    .edito-roboto{
+        font-family: Space grotesk;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .edito-karla{
+        font-family: Karla;
+        font-size: 16px;
+    }
+
+    /// modif texte lien wpbakery section nous contacter boutton rdv
+    .button_rdv a{
+        font-family: Space grotesk;
+        background-color: $vert-clair!important;
+        color: $gris!important;
+        font-size: 11px;
+        margin-left: -5px;
+        max-width: fit-content;
+        padding: 9px 7px;       
+    }
+
+    .button_rdv:hover a{
+        background-color: $gris!important;
+        color: $vert-clair!important;  
+    }
+
+    .trenteGrotesk{
+        font-family: space Grotesk;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .quaranteRoboto{
+        font-family: Space grotesk;
+        font-size: 40px;
+    }
+    
+    h2.formulaires{
+        font-size: 20px;
+    }
+
+   
+
+    .montserrat h1{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+
+    @media (min-width: 1601px) {
+        .montserrat h1{
+            font-family: Montserrat;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
+
+    .montserrat h3{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+
+    @media (min-width: 1601px) {
+        .montserrat h3{
+            font-family: Montserrat;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
+    
+    .montserrat{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+
+    @media (min-width: 1601px) {
+        .montserrat{
+            font-family: Montserrat;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
+
+    
+
+
+    .edito-grotesk{
+        font-family: space Grotesk;
+        font-size: 16px;
+    }
+
+    .edito-allison{
+        font-family: Allison;
+        font-size: 30px;
+    }
+
+    .vc_custom_heading p{
+        font-family: space Grotesk;
+    }
+    
+    @media (max-width: 768px){
+        .vc_gitem-post-data.infosArticle.vc_gitem-post-data-source-post_categories.vc_grid-filter.vc_clearfix.vc_grid-filter-.vc_grid-filter-size-md.vc_grid-filter-center.vc_grid-filter-color-grey {
+            display: block!important;
+        }
+    }
+
+    .sticky-nav .button_prendre_rdv{
+        margin: 8px 12px;
+    }
+
+    .recherche{
+        .submit{
+            background-image: url("https://sortiedecrise.fr/wp-content/uploads/2021/09/loupe-1.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            content: '';
+            width:26px;
+            border: none;
+            margin-bottom: 0px;
+            margin-left: -26px;
+        }
+
+        input{
+            border-top-width:0px;
+            border-right-width:0px;
+            border-left-width:0px;
+            border-bottom-width:1px;
+            border-bottom-color: white; 
+            background-color: $rouge; 
+            font-family: Space grotesk;
+            margin-bottom: 50px;
+            margin-top:20px;
+            width: 400px;
+        }
+        
+        input::placeholder{
+            color: white;
+        }
+
+    }
+
+    #titre-a-la-une{
+        font-family: Space grotesk;
+        font-size: 31px;
+        margin-left: 5px;
+    }
+
+    .short_pres{
+        font-family: Space grotesk ;
+    }
+
+    .short_pres_img{
+        z-index: -1;
+        position: relative;
+    }
+
+    .admin-title{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .text-admin-jud{
+        font-family: Space grotesk;
+        font-size: 16px;
+        @media (min-width: 1600px) {
+            margin-top: 100px;
+        }
+    }
+
+
+    //correction espace du aux colones entre l'image admin jud et le tex admin jud
+    @media (max-width: 720px) {
+        .vc_col-has-fill>.vc_column-inner, .vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_column_container>.vc_column-inner  {
+            padding-top: 0px!important;
+        }
+    }
+
+    
+
+    .titre-icone-bas{
+        font-family: Space grotesk;
+        font-size: 16px;
+    }
+
+    button{
+        background-color:$rouge!important;
+        color: white!important;
+    }
+
+    @media (max-width: 991px) {
+        .vc_custom_1630592987013{
+            display: flex;
+            flex-direction: row;    
+            flex-flow: wrap;
+        }
+    }
+    
+    .cardContent{
+        position:relative;
+        
+    
+        
+
+        img.mainImg{
+            width: 100%;
+        }
+
+        .card-infos{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            
+            p{
+                margin-bottom: 0px;
+            }
+        
+            .texte{
+                background: white;
+                color:black;
+                font-size:18px;
+                @media (max-width: 1720px){
+                    font-size: 15px;
+                }
+                box-sizing:content-box;
+                font-family: Space grotesk;
+                font-weight: bold;
+                padding: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                text-align: center;
+                position: relative;
+                bottom: -40px;
+                @media (max-width: 991px) {
+                    bottom: auto;
+                }
+                transition: ease all 0.3s;
+
+                .savoirPlus{
+                    font-size:16px;
+                    font-family: Space grotesk;
+                    font-weight: bold;
+                    @media (max-width: 769px){
+                        font-size: 14px;
+                    }
+                }
+
+                span{
+                    color:$vert-clair;
+                }
+            }
+        }
+        .card-color{
+            position: absolute;
+            top: 0em;
+            left: 0em;
+            width: 100%;
+            height: 100%;
+            background-color:$vert-clair;
+            opacity: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+            transition: all 1s ease;
+            img{
+                width: 37.5%;
+                height: 42%;
+            }
+        }  
+
+    }
+
+    /// bouton en savoir plus presentation admin judiciaire
+    button.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-square.vc_btn3-style-classic.vc_btn3-color-inverse {
+        font-weight: bold;
+    }
+   
+    .cardContent:hover{
+        
+        .card-color{ 
+            opacity: 0.52;
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+        }  
+         
+        .texte {
+            bottom: -15px;
+            transition: 0.3s ease all;
+        }
+    }
+ 
+    .accueil_button_article{
+        font-weight: bold;
+    }
+    
+
+   .infosArticle{
+        font-family: Space Grotesk;
+        font-size: 16px;
+        color: $rouge;
+        text-transform: uppercase;
+        margin-bottom: 39px;
+   }
+
+   .titreArticle{
+       font-family: Space grotesk;
+       font-weight: bold;
+       font-size: 24px;  
+   }
+
+   .textArticle{
+       font-family:Space Grotesk;
+       font-size: 16px;
+   }
+    
+   .infosArticlePere{
+       display: flex;
+       align-items: flex-start;
+   }
+    
+   .titre-categorie{
+       font-family: Space grotesk;
+       font-size: 36px;
+       font-weight: bold;
+   }
+
+    /////////////////////////////////////////////////////////////////page article (single)
+
+    .image-contexte-article{
+        margin-top: -50px;
+        z-index: 0;
+        position:relative;
+    }
+
+
+   ul.post-categories{
+       display: flex;
+       li{
+        list-style-type: none;
+       }
+       li:after{
+           content: "-";
+       }
+       li:last-child:after{
+           content:"";
+       }
+   }
+
+    .texte-article a{
+        color: $vert-clair!important;;
+    }
+
+    .texte-article a:hover{
+        color:$gris-vert!important;
+        text-decoration: underline;
+    } 
+
+
+    a{
+        color: black;
+    }
+
+    a:visited{
+        color: black;
+    }
+
+    a:hover{
+        color: black;
+        text-decoration: none;
+    }
+    
+    #fond_gris{
+        background-color: $gris;
+    }
+
+    #breadcrumb_container_single{   
+        font-family: Space grotesk;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+
+        strong{
+            color: $vert-clair;
+        }
+
+        span{
+            color:$vert-clair;
+        }
+        
+    }
+
+    .fond_blanc{
+        background-color: white;
+        width: fit-content;
+        padding:15px;
+        padding-bottom: 0px;
+        z-index: 1;
+        position: relative;
+    }
+
+    #breadcrumb_container_page{ 
+        font-family: Space grotesk;
+        font-weight: bold;
+        font-size: 14px;
+        background-color:white;
+        width: fit-content;
+        z-index: 5;
+        position: relative;
+        padding:30px;
+        padding-bottom: 0px;
+        text-transform: uppercase;
+        
+
+        strong{
+            color: $vert-clair;
+        }
+
+        span{
+            color: $vert-clair;
+        }
+    }
+
+    .single-info-post{
+        margin-top: 100px;
+        color: $vert-clair;
+        font-family: Space Grotesk;
+        font-size: 16px;
+
+        ul{
+           list-style: none;
+        }
+
+        a{
+            color: $vert-clair;
+        }
+    }
+
+    .link_sibling_art{
+        background-color: #F9F9F9;
+
+        .button_precedent{
+            color:$vert-clair;
+            font-family: Space Grotesk;
+            padding-top: 60px;
+            padding-bottom: 10px;
+        }
+        .button-titre-precedent{
+            font-family: Space grotesk;
+            font-weight: bold;
+            @media (max-width: 426px) {
+                font-size: 12px;
+            }
+            font-size: 20px;
+            padding-bottom: 10px;
+            line-height: 33px;
+        }
+
+        #image-precedent{
+            background-image: url("https://sortiedecrise.fr/wp-content/uploads/2021/10/fl-gauche.svg");
+            background-repeat: no-repeat;
+            width:31px;
+            height: 54px;
+            margin-top: 20%;
+            margin-bottom: 20%;
+            margin-left: 80%;
+        }
+
+        #image-suivant{
+            background-image: url("https://sortiedecrise.fr/wp-content/uploads/2021/10/fl-droite.svg");
+            background-repeat: no-repeat;
+            width:31px;
+            height: 54px;
+            margin-top: 20%;
+            margin-bottom: 20%;
+            margin-left: 0%;
+        }
+    }
+
+    .link_sibling_art:hover{
+        background-color:$vert-clair;
+
+        .button_precedent{
+            color:white;
+            font-family: Space Grotesk;
+            padding-top: 60px;
+            padding-bottom: 10px;
+        }
+        .button-titre-precedent{
+            color: white;
+        }
+
+        #image-precedent{
+            background-image: url("https://sortiedecrise.fr/wp-content/uploads/2021/10/fl-gauche-BL.svg");
+            background-repeat: no-repeat;
+            width:31px;
+            height: 54px;
+            margin-top: 20%;
+            margin-bottom: 20%;
+            margin-left: 80%; 
+        }
+
+        #image-suivant{
+            background-image: url("https://sortiedecrise.fr/wp-content/uploads/2021/10/fl-droite-BL.svg");
+            background-repeat: no-repeat;
+            width:31px;
+            height: 54px;
+            margin-top: 20%;
+            margin-bottom: 20%;
+            margin-left: 0%;
+        }
+    }
+
+    span.category_title:last-child:after {
+        content: "";
+    }
+
+    span.category_title {
+        padding-left: 5px;
+    }
+
+    span.category_title:after {
+        content: "-";
+    }
+
+    #retour-home {
+        padding-top: 60px;
+        padding-bottom: 10px
+    }
+
+    #retour-home a{
+        color:$vert-clair;
+        text-transform: uppercase;
+        font-family: Space Grotesk;
+    }
+
+    @media (max-width: 426px) {
+        .un-mini-bibli{
+            padding-top: 50px;
+        }
+    }
+    
+    #titre-mini-bibli{
+        color: $rouge;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: Montserrat;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        text-transform: uppercase;
+    }
+
+    .mini-bibli-infos-article{
+        font-family: Space Grotesk;
+        font-size: 16px;
+        color: $rouge;
+        text-transform: uppercase;
+    }
+
+    .mini-bibli-infos-article-titre{
+        font-family: Space grotesk;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .mini-bibli-infos-article-excerpt{
+        font-family: Space Grotesk;
+        font-size: 16px;
+    }
+
+    .button-link-post a{
+        background-color: $rouge;
+        font-weight: bold;
+        color: white!important;
+        padding: 15px 55px;
+        width: fit-content;
+    }
+
+    .button-link-post a:hover{
+        background-color: #F9F9F9;
+        color:$vert-clair!important;
+        padding: 15px 55px;
+        width: fit-content;
+
+        span{
+            color: black;
+        }
+    }
+    
+    .bibli{
+        padding-bottom: 70px;
+    }
+    
+
+    ////////////////////////////////////////////////////////////////////page recherche (search)
+
+    .search{
+        padding-bottom: 50px;
+
+        .search-infos-article{
+            font-family: Space Grotesk;
+            font-size: 16px;
+            color:$rouge;
+        }
+
+        .search-infos-article-titre{
+            font-family: Space grotesk;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .search-infos-article-excerpt{
+            font-family: Space Grotesk;
+            font-size: 16px;
+        }
+    }
+    
+
+}
+
+
+

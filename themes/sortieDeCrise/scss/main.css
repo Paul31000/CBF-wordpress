@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*!
+ Theme Name:   paul_website
+ Theme URI:    none
+ Description:  Description de mon thème enfant
+ Author:       Paul
+ Author URI:   https://wpmarmite.com
+ Template:     bootstrap-basic4
+ Version:      0.1.0
+*/
+.footer_sidebar {
+  font-family: kanit;
+  color: #FFFFFF;
+}
+
+.facebook {
+  margin-right: 30px;
+}
+
+.fond_gris {
+  background-color: #A68B80;
+}
+
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: #D93A2B;
+  color: #FFFFFF;
+}
+
+/*///////////// ACCUEIL */
+.home-bckg {
+  z-index: -1;
+  position: relative;
+}
+
+#actualites-orange {
+  background-color: #F8A82A;
+}
+/*# sourceMappingURL=main.css.map */

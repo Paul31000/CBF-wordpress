@@ -1,0 +1,394 @@
+$rouge:#0F326F;
+$gris-vert:#516778;
+$gris:#F2F2F2;
+$vert-clair:#2BAA66;
+
+
+header{
+    
+    margin-top: 10px;
+
+    /* @media (max-width: 425px) {
+        .search{
+            display: none;
+        }
+    } */
+    @media (max-width: 426px){
+        .search-sticky #searchform{
+            display: none;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .sticky-menu-margin-right{
+            padding-right: 50px;
+        }
+    }
+
+    ///loupe rechercher stickymenu 
+    .col-5.d-flex.justify-content-end.sticky-menu-margin-right {
+        align-items: center;
+    }
+
+    @media (max-width: 1015px) {
+        .sidebar-header{
+            display: none!important;
+        }
+    }
+
+    @media (max-width: 1440px) {
+        .button_prendre_rdv{
+            font-size: 12px;
+            padding: 9px 10px!important;
+        }
+    }
+    
+    #uc_recherche-2{
+        float:left;
+        padding: 0px 5px;
+    }
+
+    #custom_html-4{
+        float:left;
+        padding: 6px 5px;
+    }
+
+    #custom_html-3{
+        float:left;
+        padding: 6px 5px;
+    }
+
+    svg:hover{
+        fill:#2BAA66;
+    }
+    
+
+ /*    .sticky #site-navigation, .sticky .search-sticky, .sticky .main-menu-header a {
+        float: left;
+    } */
+
+    .site-title-heading-sticky{
+        padding-top: 7px;
+    }
+
+    .button_prendre_rdv:hover{
+        background-color: $gris;
+        color: $vert-clair;
+    }
+
+
+    .button_prendre_rdv{
+        background-color: $vert-clair;
+        color: white;
+        text-transform: uppercase;
+        font-family:Space grotesk;
+        font-weight: bold;
+        margin-top: 10px;
+        padding: 6px 26px;
+    }
+
+    button.navbar-toggler {
+        background-color:$vert-clair!important;
+    }
+
+    @media (max-width: 1200px) {
+        #site-navigation{
+            padding-left: 0px;
+        }
+    }
+
+    @media (min-width: 1200px) { 
+        div#navbarContent {
+            width: 100%;
+            display: inline-block!important;
+            margin: auto;
+        }
+    }
+
+    div#navbarContent ul {
+        display: flex;
+        justify-content: start;
+    }
+
+    .main-menu-header {
+        width: 100%;
+    }
+
+    h2.site-title-heading{ 
+        color: black;
+        font-family:Space grotesk;
+        font-weight:bold;
+        letter-spacing: 3px;
+        @media (max-width: 426px) { 
+            font-size: 24px;
+        }
+        @media (min-width: 426px) { 
+            font-size: 36px;
+        }
+        span{
+            color:$vert-clair
+        }
+    }
+
+    h2.site-title-heading-sticky { 
+        color: black;
+        font-family:Space grotesk;
+        font-weight:bold;
+        letter-spacing: 3px;
+        font-size: 30px;
+        margin-left: 15px;
+        span{
+            color:$vert-clair;
+        }
+    }
+
+    @media (max-width: 1800px) {
+        h2.site-title-heading-sticky { 
+            font-size: 22px;
+        }
+    }
+
+    #slogan{
+        margin-top: -10px;
+        font-family:Space Grotesk;
+        color:$vert-clair;
+    }
+
+    
+    .mymenu{
+        margin-right: -20px;
+        margin-left: -20px;
+        li{
+            list-style: none;
+            font-family:Space grotesk;
+            font-weight: bold;
+            font-size: 15px;
+            color: black;
+            text-transform: uppercase;
+        }
+
+        a:link{
+            color: black;
+        }
+    
+        a:visited{
+            color: black;
+        }
+    }
+
+    @media (max-width: 1440px) {
+        .mymenu li {
+            font-size: 13px;
+        }
+    }
+
+    @media (max-width: 1440px) {
+        .sticky-nav .mymenu li {
+            font-size: 11px;
+        }
+    }
+
+    /* redefinition de la couleur du menu */
+    a.dropdown-item.menu-item.menu-item-type-post_type.menu-item-object-page{
+        background: #2BAA66;
+        color: white;
+        padding-top: 15px;
+        @media (max-width: 426px) {
+            white-space: normal;
+            width:155%;
+        }
+        
+    }
+
+    a.dropdown-item.menu-item.menu-item-type-post_type.menu-item-object-page:hover {
+        background: white;
+        color: #2BAA66;
+        
+    }
+
+    a.dropdown-toggle.nav-link.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children:hover{
+        background: #2BAA66;
+        color: white;
+    }
+
+    a.nav-link.menu-item.menu-item-type-post_type.menu-item-object-page:hover {
+        background:$vert-clair;
+        color: white;
+        border-radius: 0px;
+    } 
+
+    .h-sticky{
+        display: none;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    /*STICKY STYLE*/
+    /*Sticky menu*/
+    
+    .sticky {
+        position: fixed!important;
+        width: 100%;
+        top: 0;
+        z-index: 10000;
+        border-top: 0;
+        background-color: #ffffff;
+        margin: auto;   
+        left: 0px;
+    }
+    
+
+    #search-2{
+        display: none;
+    }
+
+    .submit{
+        background-image: url("https://sortiedecrise.fr/wp-content/uploads/2021/09/Capture-decran-du-2021-09-13-15-07-04.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        content: '';
+        width:36px;
+        border: none;
+    }
+
+    input{
+        border-top-width:0px;
+        border-right-width:0px;
+        border-left-width:0px;
+        border-bottom-width:1px;
+        border-bottom-color: transparent;
+        width:0;
+        transition:0.5s ease all;  
+    }
+
+    .search-sticky form#searchform:hover input[type="text"] {
+        width: 90px;
+        border-color: $vert-clair;
+        transition: 0.5s ease all;
+    }
+
+    form#searchform:hover input[type="text"] {
+        width: 250px;
+        border-color: $vert-clair;
+        transition: 0.5s ease all;
+    }
+
+    @media (max-width: 426px) { 
+        input{
+            border-top-width:0px;
+            border-right-width:0px;
+            border-left-width:0px;
+            border-bottom-width:1px;
+            border-bottom-color: $rouge;
+            width:200px;
+            margin-bottom: 5px; 
+        }
+    }
+
+
+    .navbar{
+        padding: 0 0;
+        margin: 0px -10px;
+    }
+}
+
+footer{
+    svg:hover{
+        fill:$vert-clair;
+    }
+
+    .widget-footer-contact{
+        margin-top:20px;
+    }
+
+    .ligne-verticale{
+        border-right: 3px solid #DBDBDB;
+        height: auto;
+        margin-right: 50px;
+    }
+
+    aside{
+        padding-top: 12px;
+    }
+
+    .fondrouge{
+        padding-top: 50px;
+        background-color: $rouge;
+        padding-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    a.nav-link.menu-item{
+        color:white;
+    }
+
+    @media (min-width: 830px){
+        ul#bb4-primary-menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+   
+    li{
+        list-style: none;
+        font-family:Space grotesk;
+        font-size: 16px;
+        color:white;
+        text-transform: uppercase;
+    }
+
+    a:link{
+        color: white;
+    }
+
+    a:visited{
+        color: white;
+    }
+
+    .reseaux-sociaux{
+        padding-top: 20px;
+    }
+
+    #custom_html-6{
+        padding: 0px 5px;
+    }
+
+    #custom_html-5{
+        padding: 0px 5px;
+    }
+
+    .mentions .mentions-legales{
+        padding-top: 30px;
+        font-size: 14px;
+        font-family: Karla;
+        color: #B1B1B1!important;
+    }
+
+    /// redefinition de la couleur du menu
+    a.dropdown-item.menu-item.menu-item-type-post_type.menu-item-object-page{
+        background: #2BAA66;
+        color: white;
+    }
+
+    a.dropdown-item.menu-item.menu-item-type-post_type.menu-item-object-page:hover {
+        background: white;
+        color: #2BAA66;
+    }
+
+    a.dropdown-toggle.nav-link.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children:hover{
+        background: #2BAA66;
+        color: white;
+    }
+
+    a.nav-link.menu-item.menu-item-type-post_type.menu-item-object-page:hover {
+        background:$vert-clair;
+        color: white;
+        border-radius: 0px;
+    } 
+
+    .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+}
